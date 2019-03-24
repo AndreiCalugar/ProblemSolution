@@ -65,7 +65,7 @@ namespace CountOccurrence
         
         static void Main(string[] args)
         {
-            Console.WriteLine("Check the input and output files for the solution!");
+            Console.WriteLine("Check the output files for the solution!");
             string fileName = @"../../../../Files/InputFile.txt";
             string inputText = ReadTextFile(fileName);
             IEnumerable<string> splitedWords= SplitWords(inputText);
