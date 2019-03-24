@@ -1,6 +1,8 @@
 The number of counts for each words are:
-Counts: 1 for ce
-Counts: 1 for faci
-Counts: 1 for ba
-Counts: 2 for andrei
-Counts: 1 for azi
+Counts: 1 for go
+Counts: 2 for do
+Counts: 2 for that
+Counts: 1 for thing
+Counts: 1 for you
+Counts: 1 for so
+Counts: 1 for well
