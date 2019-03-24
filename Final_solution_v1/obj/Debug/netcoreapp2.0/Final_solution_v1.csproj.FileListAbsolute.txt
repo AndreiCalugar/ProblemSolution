@@ -1,0 +1,11 @@
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\bin\Debug\netcoreapp2.0\Final_solution_v1.deps.json
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\bin\Debug\netcoreapp2.0\Final_solution_v1.runtimeconfig.json
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\bin\Debug\netcoreapp2.0\Final_solution_v1.runtimeconfig.dev.json
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\bin\Debug\netcoreapp2.0\Final_solution_v1.dll
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\bin\Debug\netcoreapp2.0\Final_solution_v1.pdb
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\obj\Debug\netcoreapp2.0\Final_solution_v1.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\obj\Debug\netcoreapp2.0\Final_solution_v1.AssemblyInfoInputs.cache
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\obj\Debug\netcoreapp2.0\Final_solution_v1.AssemblyInfo.cs
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\obj\Debug\netcoreapp2.0\Final_solution_v1.dll
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\obj\Debug\netcoreapp2.0\Final_solution_v1.pdb
+C:\Users\andre\source\Interviw\Final_solution_v1\Final_solution_v1\obj\Debug\netcoreapp2.0\Final_solution_v1.csprojAssemblyReference.cache
