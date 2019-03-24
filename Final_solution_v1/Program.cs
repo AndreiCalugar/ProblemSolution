@@ -9,7 +9,7 @@ namespace CountOccurrence
     class Program
     {
 
-        /// Method for reading the content of the input file  
+        /// Method for reading the content of the InputFile  
         public static string ReadTextFile(string fileName)
         {
             string text ="";
@@ -35,13 +35,16 @@ namespace CountOccurrence
             return wordMatcher.Matches(toLowerCase).Select(c => c.Value);
         }
 
-        /// Prints word-counts to the given TextWriter
+        /// Prints word-counts into the OutputFile
         public static void WriteWordCounts(Dictionary<string, int> counts, TextWriter writer)
         {
-            writer.WriteLine("The number of counts for each words are:");
-            foreach (KeyValuePair<string, int> kvp in counts)
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter("../../../../Files/OutputFile.txt"))
             {
-                writer.WriteLine("Counts: " + kvp.Value + " for " + kvp.Key);
+                file.WriteLine("The number of counts for each words are:");
+                foreach (KeyValuePair<string, int> kvp in counts)
+                {
+                    file.WriteLine("Counts: " + kvp.Value + " for " + kvp.Key);                   
+                }
             }
         }
 
@@ -62,7 +65,7 @@ namespace CountOccurrence
         
         static void Main(string[] args)
         {
-            string fileName = @"F:\Ex\MyfgIle.txt"; /// File path
+            string fileName = @"../../../../Files/InputFile.txt";
             string inputText = ReadTextFile(fileName);
             IEnumerable<string> splitedWords= SplitWords(inputText);
             var counts = CountOccurrences(splitedWords);

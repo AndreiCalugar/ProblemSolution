@@ -1,0 +1,6 @@
+The number of counts for each words are:
+Counts: 1 for ce
+Counts: 1 for faci
+Counts: 1 for ba
+Counts: 2 for andrei
+Counts: 1 for azi
